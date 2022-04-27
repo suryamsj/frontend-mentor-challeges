@@ -1,0 +1,43 @@
+// Variable
+$white: hsl(0, 0%, 100%);
+$lightgray: hsl(212, 45%, 89%);
+$grayishblue: hsl(220, 15%, 55%);
+$darkblue: hsl(218, 44%, 22%);
+
+
+body {
+    font-size: 15px;
+    font-family: 'Outfit', sans-serif;
+    background: $lightgray;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.qr-code {
+    width: 300px;
+    background: $white;
+    padding: 1rem;
+    border-radius: 4%;
+    text-align: center;
+
+    img {
+        width: 100%;
+        border-radius: 4%;
+    }
+
+    h1 {
+        color: $darkblue;
+        font-size: 1.5rem;
+    }
+
+    p {
+        color: $grayishblue;
+        width: 85%;
+        margin: 0 auto;
+    }
+}
