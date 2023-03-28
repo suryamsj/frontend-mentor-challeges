@@ -21,7 +21,7 @@ body {
 /* Container */
 .container {
     position: relative;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,7 +29,6 @@ body {
 
     @media (max-width: 1199.98px) {
         display: block;
-        height: auto;
     }
 }
 
